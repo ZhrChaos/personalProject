@@ -1,0 +1,230 @@
+*{
+  background-color: rgb(57, 57, 61);
+  box-sizing: border-box;
+}
+
+.app-window {     
+  display: flex;
+  flex-direction: row;
+        }
+
+@media(max-width: 699px){
+  .messages-window{
+    width:100vw;
+  }
+
+  .bottom-bar input {
+    bottom: 0px;
+    background-color: rgb(85,85,85);
+    width: 80vw;
+    height: 30px;
+    margin: auto;
+    border: 1px solid rgb(85,85,85);
+    border-radius: 8px;
+  }
+  
+  .bottom-bar {
+    background-color: rgb(50, 50, 54);
+    border-top: 2px solid rgb(42, 42, 42);
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+  }
+  
+
+  .channel-bar img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(50, 50, 54);
+  }
+  
+  .guild-channels{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(49, 49, 51);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .guild-name-bar{
+    color: rgb(195, 195, 195);
+    background-color: rgb(42, 42, 42);
+    font-size: 20px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .guild-name-bar div {
+    background-color: rgb(42, 42, 42);
+    padding-left: 5px;
+  }
+
+  .closebtn {
+    width: 40px;
+    background-color: rgb(42, 42, 42);
+    float: right;
+    margin: 5px;
+  }
+
+  .channel-select-window {
+    background-color: rgb(49, 49, 51);
+
+  }
+  
+  .channels {
+    margin: 10px 10px;
+    background-color: rgb(49, 49, 51);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .channels li {
+    background-color: rgb(49, 49, 51);
+    color: rgb(195, 195, 195);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .channels li:hover{
+    background-color: rgb(85,85,85);
+    border-radius: 10px;
+  }
+}
+
+ /* =========================== */
+
+@media(min-width: 700px){
+  .guild-channels {
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(49, 49, 51);
+  }
+
+  .closebtn{
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .guild-select{
+    position: fixed;
+    width: 75px;
+    height: 100vh;
+    background-color: rgb(40,40,40);
+  }
+
+
+  .bottom-bar input {
+    bottom: 0px;
+    background-color: rgb(85,85,85);
+    /* width: 75vw; */
+    height: 30px;
+    /* margin: auto; */
+    /* margin-left: 10px; */
+    border: 1px solid rgb(85,85,85);
+    border-radius: 8px;
+  }
+
+  .bottom-bar {
+    background-color: rgb(50, 50, 54);
+    border-top: 2px solid rgb(42, 42, 42);
+    position: fixed;
+    bottom: 0px;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid white;
+  }
+
+  .channel-bar img{
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+    background-color: rgb(50, 50, 54);
+  }
+
+}
+
+/* ========================== */
+
+.channel-bar {
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(50, 50, 54);
+  border-bottom: 2px solid rgb(94, 69, 119);
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+
+.channel-name{
+  color: rgb(195, 195, 195);
+  background-color: rgb(50, 50, 54);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.messages-window{
+  height: 100vh;
+  font-size: 14px;
+  color: rgb(195, 195, 195);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.messages-box{
+  margin: 50px 10px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-color: rgb(57, 57, 61)
+}
+
+.messages-box img {
+  width: 45px;
+  border-radius: 15px;
+}
+
+
+.content{
+  margin-left: 20px;
+}
+
+.account_name{
+  font-size: 18px;
+  background-color: rgb(57, 57, 61);
+}
+
+.messages{
+  /* padding: 5px; */
+  margin-top: 10px;
+  
+}
+
+.message-container{
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.message-section{
+  background-color: rgb(57, 57, 61);
+}
+
+
+
+

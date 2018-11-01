@@ -1,0 +1,43 @@
+*{
+      box-sizing: border-box;
+}
+
+
+section{
+      background-color: rgb(49, 49, 51);
+
+}
+
+.guild-container:hover {
+      background-color: rgb(68,68,68);
+      border-radius: 20px;
+      
+}
+.guild-container h1:hover{
+      background-color: rgb(68,68,68);
+}
+
+.guild-container{
+      background-color: rgb(49, 49, 51);
+      display: flex;
+      align-items: center;
+}
+
+h1{
+      color: rgb(195, 195, 195);
+      background-color: rgb(49, 49, 51);
+}
+
+.image-wrapper{
+      height: 50px;
+      width: 50px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      margin: 10px;
+}
+
+img{
+      height: 50px;
+}
