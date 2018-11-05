@@ -4,24 +4,27 @@
 
 
 section{
-      background-color: rgb(49, 49, 51);
+      background-color: transparent;
 
 }
 
-.guild-container:hover {
+.container-guild:hover {
       background-color: rgb(68,68,68);
       border-radius: 20px;
       
 }
 
 
-.guild-container{
-      background-color: rgb(49, 49, 51);
+.container-guild{
+      background-color: transparent;
       display: flex;
       align-items: center;
+      width: 70vw;
+      box-shadow: 0 0 15px black;
+      border-radius: 20px;
 }
 
-h1{
+.container-guild > h1{
       color: rgb(195, 195, 195);
       background-color: transparent;
 }
@@ -40,7 +43,7 @@ h1{
       height: 50px;
 }
 
-.account-wrapper{
+/* .account-wrapper{
       height: 40px;
       width: 40px;
       border-radius: 12px;
@@ -48,9 +51,9 @@ h1{
       justify-content: center;
       overflow: hidden;
       margin: 10px;
-}
+} */
 
-.account-bar{
+/* .account-bar{
       display: flex;
       align-items: center;
-}
+} */

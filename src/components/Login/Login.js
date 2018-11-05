@@ -15,8 +15,10 @@ export default class Login extends Component {
 
     render() {
         return (
-            <div className='App'>
-                <button onClick={this.login}>Login</button>
+            <div className='background'>
+                <div className='App'>
+                    <button onClick={this.login}>Login</button>
+                </div>
             </div>
         )
     }
