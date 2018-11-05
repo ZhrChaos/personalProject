@@ -40,7 +40,7 @@ class Channel extends Component {
   }
 
   componentDidMount() {
-    this.socket = io('http://localhost:4000')
+    this.socket = io()
 
     this.socket.on("generalMessage", (data) => {
       // console.log(data)
