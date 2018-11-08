@@ -97,7 +97,7 @@ class CreateGuild extends Component {
                               </div>
                               <div className="body-container">
                                     <div>{this.props.account.account_name}</div>
-                                    <input onChange={(e) => this.handleName(e)} />
+                                    <input onChange={(e) => this.handleName(e)} placeholder="Enter guild name" />
                                     <div className="url-wrapper">
                                           <img src={this.state.url} alt="Guild" />
                                     </div>

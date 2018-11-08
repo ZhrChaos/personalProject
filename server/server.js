@@ -201,6 +201,7 @@ io.on('connection', function (socket) {
     }
     // console.log(generalMessage)
     let roomName = guildList.find(g => g.guild_id === data.roomId).guild_name
+    console.log('emiitting to room: ', roomName)
     io.to(roomName).emit("generalMessage", generalMessage)
   })
 

@@ -40,12 +40,12 @@ class Channel extends Component {
   }
 
   componentDidMount() {
-    this.socket = io()
+    this.socket = io("http://localhost:4000")
 
     this.socket.on("generalMessage", (data) => {
-      // console.log(data)
+      console.log(data)
       let m = this.state.messages.slice()
-      // console.log(m)
+      console.log('general message data: ', data)
       m.push(data)
       this.setState({ messages: m })
     })
@@ -88,6 +88,7 @@ class Channel extends Component {
 
   componentDidUpdate() {
     this.scrollToBottom();
+    // this.guildDisplay()
   }
 
   updateMessages() {
@@ -197,7 +198,7 @@ class Channel extends Component {
           <nav className='channel-bar'>
             <img src={menu} alt="menu" onClick={() => this.openNav()} />
             <h1 className='channel-name'>
-              Guild Name
+              {this.state.guildName}
             </h1>
           </nav>
           <div className='messages-window'>

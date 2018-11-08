@@ -8,7 +8,7 @@
   flex-direction: row;
         }
 
-@media(max-width: 699px){
+/* @media(max-width: 699px){ */
   .messages-window{
     width:100vw;
   }
@@ -102,11 +102,11 @@
   }
 
   
-}
+/* } */
 
  /* =========================== */
 
-@media(min-width: 700px){
+/* @media(min-width: 700px){
   .guild-channels {
     width: 300px;
     height: 100vh;
@@ -131,10 +131,8 @@
   .bottom-bar input {
     bottom: 0px;
     background-color: rgb(85,85,85);
-    /* width: 75vw; */
+    width: 75vw;
     height: 30px;
-    /* margin: auto; */
-    /* margin-left: 10px; */
     border: 1px solid rgb(85,85,85);
     border-radius: 8px;
   }
@@ -159,7 +157,7 @@
     background-color: rgb(50, 50, 54);
   }
 
-}
+} */
 
 /* ========================== */
 

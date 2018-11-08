@@ -12,60 +12,50 @@
 
 .container-join{
       display: flex;
-      /* justify-content: center; */
       align-items: center;
       flex-direction: column;
-      width: 100vw;
+      width: 699px;
       color: rgb(195,195,195);
 }
 
 .top-bar-container{
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      width: 100vw;
+      width: 699px;
       height: 80px;
       color: rgb(195, 195, 195);
       font-size: 40px;
 }
 
 .back-button {
-      /* position: fixed; */
-      /* left: 10px; */
+      position: fixed;
+      left: 10px;
       top: 8px;
       background-color: transparent;
 }
 
 .header{
-      /* margin: 80px; */
-      font-size: 30px;
-      /* align-self: center; */
+      font-size: 50px;
 }
 
 .settings-button{
-      /* position: fixed; */
-      /* right: 15px; */
+      position: fixed;
+      right: 15px;
       height: 45px;
       background-color: transparent;
-      /* outline: black solid 1px; */
 }
 
-/* .empty{
-      height: 5px;
-      width: 90px;
-} */
 
 .account-name{
-      /* margin-bottom: 25px; */
+      margin-bottom: 25px;
 }
 
 .joinguild-container{
       display: flex;
-      /* justify-content: center; */
       align-items: center;
       flex-direction: column;
-      /* width: 100vw; */
       color: rgb(195,195,195);
 }
 
