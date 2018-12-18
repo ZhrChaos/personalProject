@@ -22,3 +22,14 @@ button{
       border-color: rgb(156, 61, 156);
       border-width: 3px;
 }
+
+.lh3{
+      color: rgb(195, 195, 195);
+      margin-top: 40px;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+}
+
+.lp{
+      color: rgb(195, 195, 195);
+}

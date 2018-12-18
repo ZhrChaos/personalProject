@@ -18,6 +18,9 @@ export default class Login extends Component {
             <div className='background'>
                 <div className='App'>
                     <button onClick={this.login}>Login</button>
+                    <h3 className='lh3'>Demo account</h3>
+                    <p className='lp'>demo@demo.com</p>
+                    <p className='lp'>demo</p>
                 </div>
             </div>
         )
