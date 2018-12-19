@@ -7,7 +7,7 @@ const aws = require('aws-sdk');
 const bodyParser = require('body-parser');
 
 const app = express();
-// app.use(express.static("build"))
+app.use(express.static("build"))
 app.use(bodyParser.json());
 
 const {
